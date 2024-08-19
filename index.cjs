@@ -14,6 +14,7 @@ module.exports = [
     plugins: { '@stylistic/js': stylisticJS },
     rules: {
       expressLintConfig: 0,
+      'dot-notation': ['error'],
       semi: ['error', 'always'],
       '@stylistic/js/semi': ['error', 'always'],
       '@stylistic/semi': ['error', 'always'],

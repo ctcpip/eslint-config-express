@@ -1,9 +1,11 @@
 {
   "name": "eslint-config-express",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "the express eslint config 🔧🔥⚙️",
   "main": "index.cjs",
   "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "test": "eslint . && node test/test.cjs && node test/test.mjs && node test/test-dynamic.js"
   },
   "repository": {
